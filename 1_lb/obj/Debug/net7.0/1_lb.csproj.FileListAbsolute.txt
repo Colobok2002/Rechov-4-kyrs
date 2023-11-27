@@ -1,0 +1,14 @@
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/1_lb.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/1_lb.AssemblyInfoInputs.cache
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/1_lb.AssemblyInfo.cs
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/1_lb.csproj.CoreCompileInputs.cache
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/bin/Debug/net7.0/1_lb
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/bin/Debug/net7.0/1_lb.deps.json
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/bin/Debug/net7.0/1_lb.runtimeconfig.json
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/bin/Debug/net7.0/1_lb.dll
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/bin/Debug/net7.0/1_lb.pdb
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/1_lb.dll
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/refint/1_lb.dll
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/1_lb.pdb
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/1_lb.genruntimeconfig.cache
+/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/obj/Debug/net7.0/ref/1_lb.dll
