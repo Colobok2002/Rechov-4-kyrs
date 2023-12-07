@@ -1,0 +1,82 @@
+using System;
+
+namespace FactorialCalculation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите значение переменной x:");
+            if (!int.TryParse(Console.ReadLine(), out int x))
+            {
+                Console.WriteLine("Неверный формат числа.");
+                return;
+            }
+
+            // Вычисление факториала (x + 2)
+            int factorial = CalculateFactorial(x + 2);
+
+            if (factorial == -1)
+            {
+                Console.WriteLine("Ошибка: переполнение при вычислении факториала (x + 2).");
+                return;
+            }
+
+            // Проверка на бесконечность значения factorial
+            if (factorial == int.MaxValue)
+            {
+                Console.WriteLine("Ошибка: результат факториала слишком большой (равен бесконечности).");
+                return;
+            }
+
+            // Вычисление значения f = factorial / 7
+            double f = (double)factorial / 7;
+
+            if (double.IsInfinity(f))
+            {
+                Console.WriteLine("Ошибка: результат выражения слишком большой и равен бесконечности.");
+                return;
+            }
+
+            Console.WriteLine($"Значение факториала для (x + 2)! = {factorial}");
+            Console.WriteLine($"Значение выражения f = ((x + 2)!) / 7 = {f}");
+        }
+
+        // Метод для вычисления факториала числа
+        static int CalculateFactorial(int n)
+        {
+            if (n < 0)
+            {
+                return -1; // Ошибка: факториал отрицательного числа не определен
+            }
+            else if (n == 0 || n == 1)
+            {
+                return 1; // Факториал 0 и 1 равен 1
+            }
+            else
+            {
+                try
+                {
+                    checked
+                    {
+                        int factorial = 1;
+                        for (int i = 2; i <= n; i++)
+                        {
+                            factorial *= i;
+                            // Проверка на бесконечность результата
+                            if (factorial == int.MaxValue)
+                            {
+                                return int.MaxValue;
+                            }
+                        }
+                        return factorial;
+                    }
+                }
+                catch (OverflowException)
+                {
+                    return -1; // Ошибка: переполнение при вычислении факториала
+                }
+            }
+        }
+    }
+}

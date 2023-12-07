@@ -1,0 +1,15 @@
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\bin\Debug\net8.0\6_lb.exe
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\bin\Debug\net8.0\6_lb.deps.json
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\bin\Debug\net8.0\6_lb.runtimeconfig.json
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\bin\Debug\net8.0\6_lb.dll
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\bin\Debug\net8.0\6_lb.pdb
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\6_lb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\6_lb.AssemblyInfoInputs.cache
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\6_lb.AssemblyInfo.cs
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\6_lb.csproj.CoreCompileInputs.cache
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\6_lb.sourcelink.json
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\6_lb.dll
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\refint\6_lb.dll
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\6_lb.pdb
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\6_lb.genruntimeconfig.cache
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\6_lb\obj\Debug\net8.0\ref\6_lb.dll

@@ -1,0 +1,15 @@
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\bin\Debug\net8.0-windows\7_lb.exe
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\bin\Debug\net8.0-windows\7_lb.deps.json
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\bin\Debug\net8.0-windows\7_lb.runtimeconfig.json
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\bin\Debug\net8.0-windows\7_lb.dll
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\bin\Debug\net8.0-windows\7_lb.pdb
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\7_lb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\7_lb.AssemblyInfoInputs.cache
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\7_lb.AssemblyInfo.cs
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\7_lb.csproj.CoreCompileInputs.cache
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\7_lb.sourcelink.json
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\7_lb.dll
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\refint\7_lb.dll
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\7_lb.pdb
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\7_lb.genruntimeconfig.cache
+C:\Users\ilyab\Desktop\4 курс\Rechov-4-kyrs\7_lb\obj\Debug\net8.0-windows\ref\7_lb.dll

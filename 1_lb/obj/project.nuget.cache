@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bykzweZcryYke5Sb2nYW5Pet9rRe/xBViCHDGqRrF+ZZ/ntq74nrGnUFRrsO3/gUVZ7O6zzMUdj9j/NW+8C56A==",
+  "dgSpecHash": "Got9ZeUw3rO5zt/bk4qB2epobtFCvMJ1rH/0BnO2reXP6G7kOfWygzTb6a8vai+wxbjnNtgq/ZcwmKbj2odbZw==",
   "success": true,
-  "projectFilePath": "/Users/ilya/Desktop/ilya/4 курс/Речнов/1_lb/1_lb.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\1_lb\\1_lb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ilyab\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\ilyab\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\ilyab\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\ilyab\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
