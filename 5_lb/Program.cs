@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace ReadFileToArray
 {
@@ -16,58 +17,61 @@ namespace ReadFileToArray
                     filePath = Console.ReadLine();
                 } while (string.IsNullOrEmpty(filePath) || !filePath.EndsWith(".txt"));
 
-                if (File.Exists(filePath))
+                if (!File.Exists(filePath))
                 {
-                    string response;
-                    do
-                    {
-                        Console.WriteLine("Файл уже существует. Хотите его перезаписать? (Y/N)");
-                        response = Console.ReadLine();
-                        if (response.ToLower() == "n")
-                        {
-                            Console.WriteLine("Программа завершена.");
-                            return;
-                        }
-                        else if (response.ToLower() != "y")
-                        {
-                            Console.WriteLine("Пожалуйста, введите 'Y' для подтверждения перезаписи или 'N' для отмены.");
-                        }
-                    } while (response.ToLower() != "y");
+                    Console.WriteLine("Файла не существует. Программа завершена.");
+                    return;
                 }
 
-                if (CreateFile(filePath))
+                string[] lines = File.ReadAllLines(filePath);
+
+                double sumOfPositives = 0;
+                int countOfPositives = 0;
+                double maxNegative = double.MinValue;
+                double maxPositive = double.MinValue;
+                string pattern = @"-?\d+(\.\d+)?([eE]-?\d+)?";
+
+                foreach (var line in lines)
                 {
-                    string[] lines = File.ReadAllLines(filePath);
-                    int[] numbers = Array.ConvertAll(lines, int.Parse);
+                    MatchCollection matches = Regex.Matches(line, pattern);
 
-                    int sumOfPositives = 0;
-                    int countOfPositives = 0;
-                    int maxNegative = int.MinValue;
-                    int maxPositive = int.MaxValue;
-
-                    foreach (int num in numbers)
+                    foreach (Match match in matches)
                     {
-                        if (num > 0)
+                        if (double.TryParse(match.Value, out double num))
                         {
-                            sumOfPositives += num;
-                            countOfPositives++;
-                            maxPositive = Math.Min(maxPositive, num);
+                            if (num > 0)
+                            {
+                                sumOfPositives += num;
+                                countOfPositives++;
+                                maxPositive = Math.Max(maxPositive, num);
+                            }
+                            else if (num < 0)
+                            {
+                                maxNegative = Math.Max(maxNegative, num);
+                            }
                         }
-                        else if (num < 0)
+                        else
                         {
-                            maxNegative = Math.Max(maxNegative, num);
+                            Console.WriteLine($"'{match.Value}' не является числом типа double.");
                         }
                     }
+                }
 
-                    long product = (long)maxNegative * maxPositive;
+                Console.WriteLine($"Сумма положительных элементов: {sumOfPositives}");
+                Console.WriteLine($"Количество положительных элементов: {countOfPositives}");
 
-                    Console.WriteLine($"Сумма положительных элементов: {sumOfPositives}");
-                    Console.WriteLine($"Количество положительных элементов: {countOfPositives}");
-                    Console.WriteLine($"Произведение максимального отрицательного и положительного элементов: {product}");
+                if (maxNegative == double.MinValue)
+                {
+                    Console.WriteLine($"Не были переданы отрицательные элементы");
+                }
+                else if (maxPositive == double.MinValue)
+                {
+                    Console.WriteLine($"Не были переданы положительные элементы");
                 }
                 else
                 {
-                    Console.WriteLine("Ошибка при создании файла.");
+                    double poiz = maxNegative * maxPositive;
+                    Console.WriteLine($"Произведение максимального отрицательного и положительного элементов: {poiz}");
                 }
             }
             catch (FileNotFoundException)
@@ -85,40 +89,6 @@ namespace ReadFileToArray
             catch (Exception ex)
             {
                 Console.WriteLine($"Произошла ошибка: {ex.Message}");
-            }
-        }
-
-        static bool CreateFile(string filePath)
-        {
-            try
-            {
-                using StreamWriter writer = new StreamWriter(filePath);
-                Console.WriteLine("Введите числа для записи в файл (для завершения введите 'n'):");
-
-                while (true)
-                {
-                    Console.Write("Введите число или 'n' для завершения: ");
-                    string input = Console.ReadLine();
-
-                    if (input.ToLower() == "n")
-                    {
-                        break;
-                    }
-
-                    if (int.TryParse(input, out int number))
-                    {
-                        writer.WriteLine(number);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Некорректный ввод. Пожалуйста, введите число или 'n'.");
-                    }
-                }
-                return true;
-            }
-            catch (Exception)
-            {
-                return false;
             }
         }
     }

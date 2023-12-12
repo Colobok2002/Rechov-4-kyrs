@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\6_lb\\6_lb.csproj": {}
+    "/Users/ilya/Desktop/ilya/4 курс/Речнов/6_lb/6_lb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\6_lb\\6_lb.csproj": {
+    "/Users/ilya/Desktop/ilya/4 курс/Речнов/6_lb/6_lb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\6_lb\\6_lb.csproj",
+        "projectUniqueName": "/Users/ilya/Desktop/ilya/4 курс/Речнов/6_lb/6_lb.csproj",
         "projectName": "6_lb",
-        "projectPath": "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\6_lb\\6_lb.csproj",
-        "packagesPath": "C:\\Users\\ilyab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\6_lb\\obj\\",
+        "projectPath": "/Users/ilya/Desktop/ilya/4 курс/Речнов/6_lb/6_lb.csproj",
+        "packagesPath": "/Users/ilya/.nuget/packages/",
+        "outputPath": "/Users/ilya/Desktop/ilya/4 курс/Речнов/6_lb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ilyab\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/ilya/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

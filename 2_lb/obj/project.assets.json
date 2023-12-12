@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ilyab\\.nuget\\packages\\": {}
+    "/Users/ilya/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\2_lb\\2_lb.csproj",
+      "projectUniqueName": "/Users/ilya/Desktop/ilya/4 курс/Речнов/2_lb/2_lb.csproj",
       "projectName": "2_lb",
-      "projectPath": "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\2_lb\\2_lb.csproj",
-      "packagesPath": "C:\\Users\\ilyab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilyab\\Desktop\\4 курс\\Rechov-4-kyrs\\2_lb\\obj\\",
+      "projectPath": "/Users/ilya/Desktop/ilya/4 курс/Речнов/2_lb/2_lb.csproj",
+      "packagesPath": "/Users/ilya/.nuget/packages/",
+      "outputPath": "/Users/ilya/Desktop/ilya/4 курс/Речнов/2_lb/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ilyab\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/ilya/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
